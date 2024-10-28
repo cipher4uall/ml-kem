@@ -1,9 +1,11 @@
-#include "ml_kem/ml_kem_768.hpp"
+//#include "ml_kem/ml_kem_768.hpp"
+#include "../include/ml_kem/ml_kem_768.hpp"
 #include <algorithm>
 #include <cassert>
 #include <iomanip>
 #include <iostream>
 #include <sstream>
+#include <span>
 
 // Given a bytearray of length N, this function converts it to human readable hex formatted string of length 2*N | N >= 0.
 static inline std::string
